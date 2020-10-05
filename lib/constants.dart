@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
 
+double screenHeight(context) {
+  return MediaQuery.of(context).size.height;
+}
+
+double screenWidth(context) {
+  return MediaQuery.of(context).size.width;
+}
+
 const Color dark = Color(0xFF0D0D0D);
 const Color darkGreen = Color(0xFF2E4D2A);
 const Color indigo = Color(0xFF0314B4);
